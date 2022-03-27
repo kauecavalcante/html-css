@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="perfil.jpg" type="image/x-icon"> <!--para adicinar um favicon so colocar a tag link:favicon.-->
+    <style>
+      body{
+        background-color: rgb(110, 153, 153);
+      }  
+    </style> <!--para mudar a cor da pagina so usar essa tag dentro do head.-->
+    <style>
+      mark {
+        background-color: brown;
+      }
+    </style> <!--para todos marcados ficarem de uma cor so sem precisar ficar mudando de um em um basta colocar no head do html "style -- mark { background-color: e sua cor desejada }"-->
+    <style>
+      .play {
+        height: 70px;
+      }
+    </style> <!--para mudar o tamanho da foto em link (playstation)-->
+    <title>exercicio</title>
+</head>
+<body>
+  <h1>Olá Mundo!</h1> <!--h1 = titulo de nivel 1-->
+  <hr> <!--linha horizontal-->
+  <p>Planeta Terra</p> <!--p = paragrafos-->
+  <hr>
+  <h2>paragrafo e quebra de linha</h2> <!--h2 = titulo de nivel 2-->
+  <p>Você pode escrever um paragrafo de qualquer jeito, basta colocar tudo no meio do par de tags p e /p</p>
+  <p> se precisar quebrar o texto em algum lugar especifico  <br> <!--a tag br quebra a linha--> como esse, você pode usar a tag &lt;br&gt;</p> 
+  
+  <p>vamos adicionar alguns simbolos
+  &reg;
+  &copy;
+  &trade;
+  &euro; 
+  &pound; 
+  &yen; 
+  &cent;
+</p>
+ 
+<p>Vamos adicionar emoji:
+  &#x1F596;
+  &#x1F913;
+  <!--para adicionar emoji basta colocar &#x e o codigo do emoji-->
+</p>
+<hr>
+
+<h3>Imagens</h3> <!--titulo de nivel 3-->
+<p>abaixo esta a imagem</p>
+<img src="perfil.jpg" alt="foto de perfil"> <!--para adicionar imagem esse é o codigo (o src= é para adicionar a foto e o alt= é a descrrição da imagem. )-->
+<img class="play" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/PlayStation_Icon.png" alt="icone playstation"> <!--para adicionar imagem com link é so copiar a url da imagem.-->
+<hr>
+<p><address>Rua elza sorino,28</address></p> <!--a tag address é para algum significado-->
+
+<h1>Negrito / Destaque</h1>
+<p>Kauê <strong>Cavalcante Wanderley</strong> de Melo</p> <!--strong é negrito-->
+<h2>Italico / Enfase</h2>
+<p>Eu gosto de <em>bolo de chocolat com cobertura</em> de morango</p> <!--para adicionar italico vc pode colocar a tag i ou tbm colocando com ctrl + shift + p escolhe a opção 'abb'e digita a letra "em" -->
+
+<h2>Texto marcado</h2>
+<p> Podemos criar tambem um <mark style="background-color: blue;">texto marcado</mark> usando a tag MARK</p> <!--crtl + shift + P e digita a tag 'mark' (para editar a cor do maracdo, dentro da tag "mark" escrava 'style="background-color: e a cor escolhida"')-->
+<p> <mark>Texto</mark> </p>
+<p> <mark>Texto</mark> </p>
+<p> <mark>Texto</mark> </p>
+
+<h2>Texto grande e pequeno</h2>
+<p><big>Texto Grande</big> e <small>Texto Pequeno</small></p> <!-- para deixar alguma frase ou palavra grande usar o comando crtl + shift + P e digita a tag 'big' / para deixar alguma frase ou palavra pequena usar o comando crtl + shift + P e digita a tag 'small'-->
+
+<h2>Texto Deletado</h2>
+<p>podemos marcar um <del>texto ecluido</del> para indicar que ele deve ser lido, mas não considerado</p> <!--texto com um traço so usar a tag del-->
+<h2>Texto inserido</h2>
+<p>podemos marcar um <ins>texto como inserido</ins> para dar uma enfase e indicar que ele foi adicionado depois</p> <!--texto sublinhado so usar o comando ctrl + shift + p e digitar a tag 'ins'-->
+<h2>texto sobrescrito</h2>
+<p>X<sup>20</sup>+3</p> <!--para elevar alguma coisa so usar a tag sup-->
+<h2>texto subscrito</h2>
+<p>H<sub>2</sub>o</p> <!--para deixar alguma coisa subscrita so usar a tag sub-->
+
+<h1>Outras formatações</h1>
+<p><code>www.useeletro/blabla</code> </p> <!--para deixar as letras com os espaço igauis-->
+<pre>
+<code>
+  Kauê
+   Cavalcante
+  Wanderley
+</code>
+</pre> <!--para deixar as coisas como ela esta na linguagem, usar primeiro a tag pre.-->
+
+<h2>Como diria o pai de um amigo <q>o computador é um burro muito rapido!</q></h2> <!--para citações simples so usar a tag q-->
+<blockquote cite="wwww.kauecavalcante.com">Kaue cavalcante wanderley de melo</blockquote> <!-- para citações mais completas usar a tag blockquote e adicionar a tag 'cite=' para colocar o link de onde essa informaçao foi tirada-->
+
+<h2>Abreviações</h2>
+<p>Estou criando<abbr title="Hyper text markup language"> HTML</abbr> e <abbr title="Cascading style sheets">CSS</abbr>.</p> <!--para mostrar as abreviações so usar o comando ctrl + shift + p e usar a tag abbr.-->
+<p><strong><abbr title="Kauê Cavalcante Wanderley de Melo">KCWM</abbr></strong></p>
+
+<h1>Listas</h1>
+<h2>Listas Ordenadas</h2>
+<ol type="1"> <!-- em type vc pode escolher como quer a sequencia -->
+  <li>kauecavalcante</li>
+  <li>brenno</li>
+  <li>oi</li>
+  <li>next </li>
+</ol> <!--para criar listas em ordem so usar a tag 'ol' e em seguida a tag 'li' para todas as suas coisas da lista-->
+
+<h2>listas não ordenadas</h2>
+<ul type="square"> 
+  <li>pao</li>
+  <li>leite</li>
+  <li>tomate</li>
+</ul> <!---para criar listas não ordenadas so usar a tag 'ul' e em seguida a tag 'li' para todas as suas coisas da lista-->
+
+<h2>minhas linguagens favoritas</h2>
+<ol>
+  <li>Antigas
+    <ol type="a">
+      <li>clipper
+      <li>fortran
+      <li>delphi
+    </ol>
+  <li>Novas
+    <ol type="A">
+      <li>Kaue
+        <ol>
+          <li>cavalcante
+        </ol>
+      <li>fabricio
+        <ol>
+          <li>gomes
+        </ol>
+      <li>brenno
+        <ol>
+          <li>gonzaga
+        </ol>
+    </ol>
+</ol> <!--uma lista dentro de outra lista-->
+
+<h2>Termo e descrição</h2>
+<dl>
+  <dt>HTML</dt> <!--termo-->
+  <dd> linguagem de marcação para a criação do conteudo de um site</dd> <!--descrição-->
+</dl> <!--lista de definições-->
+
+<h1>Usando links externos</h1>
+<p>Você pode acessar meu <a href="https://www.instagram.com/kauecavalcantee/?utm_medium=copy_link">instagram</a> </p> <!--para criar um link é so usar o comando ctrl + shift + p e digitar a tag 'a' e colocar o link na parte 'href'-->
+<p>Você pode acessar meu <a href="https://www.instagram.com/kauecavalcantee/?utm_medium=copy_link" target="_blank" rel="external">instagram</a> em outra pagina</p> <!--para criar link e jogar ele para outra pagina usa o mesmo comando de antes adicionando 'target="_blank" rel="external"' -->
+
+<h2>usando  links internos</h2>
+<p>Esta é a primeira pagina do site. se quiser, pode  acessar tambem a minha <a href="pag2.html" rel="next">segunda pagina</a> </p> <!--para criar uma pagina interna é o mesmo comando adicionando um 'rel=next' para informar que esta indo para a proxima pagina-->
+
+<p> <strong><a href="pag3.html" rel="next">Pagina 3</a> </strong></p>
+
+<hr>
+
+<h1><a href="pag4.html" rel="next">Pagina 4</a> </h1>
+
+<h1><a href="seletor01.html" rel="next">seletores personalizados</a></h1>
+
+<h1><a href="pseudoclasse.html" rel="next">pseudo-classes</a></h1>
+
+</body>
+</html>

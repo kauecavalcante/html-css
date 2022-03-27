@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML </title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <h2>voltar para a <a href="index.html" rel="prev">pagina 1</a></h2>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador! </p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagem/foto-p.png" type="image/png"> <!--sempre que for adicionar outra menor que (coloque sempre a proxima tag source em cima da anterior )-->
+        <source media="(max-width: 1000px )" srcset="imagem/foto-m.png" type="image/png"> <!--use a tag (source media type) souce media="(sempre coloque 'max'-width: e coloque o tamanho da foto (1000px) na parte srcset tem que colocar a imagem.)-->
+        <img src="imagem/foto-g.png" alt="foto flexivel"> <!--Usa a tag (img) e coloquee a maior foto -->
+    </picture> <!--Para trabalhar com imagens flexiveis-->
+
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos  aprender a reproduzir audios em html5.</p>
+    <audio src="midia/html.m4a" controls autoplay></audio> <!--para colocar audio (controls = para aparecer os controles) e (autoplay = para começar automatico)-->
+    <p><a href="midia/html.m4a">baixe aqui</a></p> <!--link para o audio-->
+    
+
+    <audio>
+        <source src="midia/html.m4a" type="audio/mpeg">
+    </audio> <!--outra opção de colocar audio no site (POREM ESSA NÃO FUNCIONA NO MEU PC E COM ESSE AUDIO)-->
+
+    <h1>Inserindo vidos horpedados localmente</h1>
+    <p>este video esta hospedado no meu proprio servidor</p>
+
+    <video src="midia/video-1.mp4" width="200" controls autoplay loop></video> <!--Para adicionar videos basta colocar a tag 'video' coloca-se 'width' e muda o tamanho / controls é o comando para mostrar os controles do video.-->
+
+    <h1>inserindo videos do youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--para adicionar videos do youtube, basta colocar o link copiado no youtube.-->
+
+
+
+</body>
+
+</html>
