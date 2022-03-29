@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alinhamento vertical</title>
+    <style>
+        #Container {
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-image: url('img/target001.png');
+            height: 95vh;
+            padding: 10px;
+            background-color: purple;
+            position: relative; /*  Sempre o position do Conteiner sera relative */
+        }
+
+        #Conteudo {
+            background-image: url('img/target001.png');
+            background-size: 100% 100%;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            position: absolute; /*  Sempre o position do conteudo sera absolute*/
+            left: 50%; /* coloco 50%*/
+            top: 50%; /* coloco 50%*/
+
+            transform: translate(-50%, -50%); /* Coloco -50%, -50% */
+            
+        }
+    </style>
+</head>
+<body>
+    <section id="Container">
+        <article id="Conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
