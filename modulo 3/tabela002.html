@@ -13,6 +13,13 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative; /* para deixar o cabeçalho fixo tem que usar essa tag 'position: relative;' isso visualmente não muda nada, mas é preciso */
+        }
+
+        thead > tr > th { /* para deixar o cabeçalho fixo */
+            position: sticky; 
+            top: -1px;
+            background-color: gray; /* tem que colocar a cor do background pq se n colocar ele so vai descer o nome. */
         }
 
         caption {
