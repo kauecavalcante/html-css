@@ -1,4 +1,7 @@
 # html-css
  meus exercicios em html e css
-
- Estou aprendendo a criar sites e agora vou gerenciar meus repositorios!
+ Modulo 1 - Feito
+ Modulo 2 - Feito
+ Modulo 3 - Feito
+ Modulo 4 - Em processo
+ Modulo 5 - -----|------
